@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "skeletons",
   "private": true,
   "scripts": {
     "build": "turbo run build",
