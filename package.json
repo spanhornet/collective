@@ -1,5 +1,5 @@
 {
-  "name": "skeletons",
+  "name": "collective",
   "private": true,
   "scripts": {
     "build": "turbo run build",
