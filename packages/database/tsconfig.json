@@ -10,11 +10,15 @@
     "node_modules"
   ],
   "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": ".",
     "baseUrl": ".",
     "paths": {
       "@/*": [
         "./src/*"
       ]
-    }
+    },
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true
   }
 }

@@ -35,7 +35,7 @@ const client = postgres(connectionString, { prepare: false });
 export const database = drizzle(client);
 
 // Export schema
-export {
+export const schema = {
   users,
   sessions,
   accounts,
@@ -43,7 +43,7 @@ export {
   courses,
   artworks,
   images
-}
+} as const;
 
 // Export types
 export type User = typeof users.$inferSelect;
